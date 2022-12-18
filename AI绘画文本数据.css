@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    border: 0;
+    color: black;
+}
+
+/* 背景 */
+#bg{
+    width: 100%;
+    height: 3240vh;
+    background-color: rgb(69, 116, 160);
+    display: block;
+}
+
+/* 导航栏 */
+nav{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 70%;
+             /* 给导航栏一个宽度并使其居中 */
+    border-radius: 50px;
+    background-color: white;
+    height: 60px;
+    text-align: center;
+    box-shadow: 0 25px 20px -22px black;
+}
+
+nav ul li{
+    float: left;
+    width: 170px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 500px;
+    text-align: center;
+}
+nav ul li a{
+    padding: 17px 24px;
+}
+.btli:hover .droplist{
+    display: block;
+}
+.btli:hover .btlia{
+    color: red;
+    cursor: pointer;
+    background-color: pink;
+    transition: 1s;
+}
+.droplist{
+    display: none;
+    width: 75%;
+    margin-left: 20px;
+    border-top: solid 1px grey;
+    background-color: white;
+    border-radius: 13px;
+    box-shadow: 0 25px 20px -22px black;
+    transition: 1s;
+}
+.droplist:hover{
+    background-color: pink;
+}
+.droplist a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* 顶部图片 */
+
+.topimg{
+    width: 100%;
+}
+.topimg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 文本部分 */
+
+.textbox{
+    width: 60%;
+    margin-left: 3%;
+    background-color: rgb(215, 238, 249);
+    float: left;
+}
+h2{
+    margin: 20% 0 4% 4%;
+    font-size: 35px;
+}
+h3{
+    margin: 5% 0 2% 6%;
+    font-size: 26px;
+}
+h4{
+    margin: 2% 0 1% 7%;
+    font-size: 20px;
+}
+#firsth2{
+    margin-top: 3%;
+}
+.textbox li{
+    margin: 1% 6% 1% 2%;
+}
+p{
+    margin: 1% 5% 1% 8%;
+    font-size: 17px;
+    line-height: 160%;
+    text-indent: 2em;
+}
+.textbox img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* 右侧图片 */
+
+.sideimg{
+    width: 27%;
+
+    margin-left: 6%;
+    background-color: rgb(182, 203, 242);
+    float: left;
+}
+.sideimg img{
+    width: 100%;
+}
+#sideimg1{
+    margin-top: 40vh;
+}
+#sideimg2{
+    margin-top: 100vh;
+}
+#sideimg3{
+    margin-top: 10vh;
+}
+#sideimg4{
+    margin-top: 20vh;
+}
+#sideimg5{
+    margin-top: 50vh;
+}
+#sideimg6{
+    margin-top: 100vh;
+}
+#sideimg7{
+    margin-top: 180vh;
+}
+#sideimg8{
+    margin-top: 100vh;
+}
+#sideimg9{
+    margin-top: 130vh;
+}
+#sideimg10{
+    margin-top: 140vh;
+}
+#sideimg11{
+    margin-top: 180vh;
+}
+#sideimg12{
+    margin-top: 150vh;
+}
+#sideimg13{
+    margin-top: 60vh;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI绘画讲解</title>
+    <style type="text/css">
+        @import"AI绘画.css"
+    </style>
+</head>
+<body>
+    <div id="bg">
+
+
+        <nav>
+            <ul>
+                <li class="btli"><a class="btlia" href="#bg">Home</a>
+                </li>  
+                <li class="btli"><a class="btlia" href="#history">History</a>
+                    <ul>
+                        <li class="droplist"><a href="AI绘画文本数据.html#his1">70年代</a></li>
+                        <li class="droplist"><a href="AI绘画文本数据.html#his2">2006年</a></li>
+                        <li class="droplist"><a href="AI绘画文本数据.html#his3">2012年</a></li>
+                        <li class="droplist"><a href="AI绘画文本数据.html#his4">2015年</a></li>
+                        <li class="droplist"><a href="AI绘画文本数据.html#his5">2021年</a></li>
+                    </ul>
+                </li>            
+                <li class="btli"><a class="btlia" href="#algorithm">Algorithm</a>
+                    <ul>
+                        <li class="droplist"><a href="AI绘画文本数据.html#alg1">深度学习</a></li>
+                        <li class="droplist"><a href="AI绘画文本数据.html#alg2">Diffusion</a></li>
+                        <li class="droplist"><a href="AI绘画文本数据.html#alg3">Language</a></li>
+                    </ul>
+                </li>
+                <li class="btli"><a class="btlia" href="#effect">Effect</a>
+                    <ul>
+                        <li class="droplist"><a href="AI绘画文本数据.html#eff1">意义</a></li>
+                        <li class="droplist"><a href="AI绘画文本数据.html#eff2">风险</a></li>
+                    </ul>
+                </li>
+                <li class="btli"><a class="btlia" href="#display">Display</a>
+                    
+                </li>
+            </ul>        
+        </nav>
+
+        <div class="carousel" id="carousel">
+            <ul id="imglist">
+                <li><img src="20.jpg" alt=""></li>
+                <li><img src="21.jpg" alt=""></li>
+                <li><img src="22.png" alt=""></li>
+                <li><img src="20.jpg" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="tit">
+            <img src="11.png" alt="">
+        </div>
+
+
+        <div id="musicbutton">
+            <p id="word"></p>
+        </div>
+
+
+        <div id="history">
+            <h2>History</h2>
+            <div>
+                <h3>上世纪70年代</h3><br>
+                <p class="context">一位艺术家，哈罗德·科恩Harold Cohen（画家，加利福尼亚大学圣地亚哥分校的教授） 就开始打造电脑程序“AARON”进行绘画创作。只是和当下AI绘画输出数字作品有所不同，AARON是真的去控制一个机械臂来作画的。</p><br>
+            </div>
+            <div>
+                <h3>2006年The Painting Fool</h3><br>
+                <p class="context">2006年，出现了一个类似ARRON的电脑绘画产品 The Painting Fool。它可以观察照片，提取照片里的块颜色信息，使用现实中的绘画材料如油漆，粉彩或者和铅笔等进行创作。</p><br>
+            </div>
+            <div>
+                <h3>2012年脱离古典式绘画</h3><br>
+                <p class="context">在2012年，Google两位大名鼎鼎的AI大神，Andrew Ng和Jef Dean进行了一场空前的试验。联手使用1.6万个CPU训练了一个当时世界上最大的深度学习网络。用来指导计算机画出猫脸图片。当时他们使用了来自youtube的1000万个猫脸图片，1.6万个CPU整整训练了3天，最终得到的模型，令人振奋的可以生成一个非常模糊的猫脸。</p><br>
+            </div>
+            <div>
+                <h3>2015年Deep Dream深梦</h3><br>
+                <p class="context">2015年 Google发布的一个图像工具深梦(Deep Dream)。深梦发布了一系列画作，一时吸引了很多眼球。谷歌甚至为这个深梦的作品策划了一场画展。</p><br>
+            </div>
+            <div>
+                <h3>2021年初DALL-E系统</h3><br>
+                <p class="context">2021年初，OpenAI发布了广受关注的DALL-E系统，其AI绘画的水平也就一般，下面是DALL-E画一只狐狸的结果，勉强可以辨别。</p><br>
+            </div>
+            
+        </div>
+
+        <div id="algorithm">
+            <h2>Algorithm</h2>
+            <div>
+                <h3>深度学习</h3><br>
+                <p>深度学习框架的基本功能是提供一系列的算子，支持前向计算和反向梯度更新。如此说来，框架应该很简单。然而由于OP数量很大，比如卷积，全连接，各种激活函数(如Relu，Sigmoid)，各种梯度更新算法(如Adam，RMS)等。其次，在组建神经网络模型时，需要提供静态图模式和动态图模式。</p><br>
+            </div>
+            <div>
+                <h3>Diffusion算法</h3><br>
+                <p>Stable diffusion是一个基于Latent Diffusion Models（潜在扩散模型，LDMs）的文图生成（text-to-image）模型。具体来说，得益于Stability AI的计算资源支持和LAION的数据资源支持，Stable Diffusion在LAION-5B的一个子集上训练了一个Latent Diffusion Models，该模型专门用于文图生成。</p><br>
+            </div>
+            <div>
+                <h3>Language model</h3><br>
+                <p>主要将输入的文本提示转化为可以输入到diffusion model使用的表示形式，通常使用embedding加上一些random noise输入到下一层。diffusion model主要是一个时间条件U-Net，它将一些高斯噪声和文本表示作为模型输入，将对应的图像添加一点高斯噪声，从而得到一个稍微有噪点的图像，然后在时间线上重复这个过程，对于稍微有噪点的图像，继续添加高斯噪声，以获得更有噪点的图像，重复多次到几百次后就可以获得完全嘈杂的图像。</p><br>
+            </div>
+            
+        </div>
+
+        <div id="effect">
+            <h2>Effect</h2>
+            <div>
+                <h3>意义</h3><br>
+                <p>意义正如开头提到，今年的AI热点属于AI创作，从2月的Disco Diffusion，到4月的DALL-E 2和MidJourney内测，到5/6月的Google模型Imagen和Parti，再到7月底的Stable Diffusion。越来越多的人开始尝试AI创作图像、声音、视频、3D内容等等，这让我们看到了AI在艺术领域越来越多的可能性。十多年前当世界都开始为AI和机器学习欢呼的时候，我们看到了很多AI可以做的事情，而“创作力”和“想象力”也是一直以来AI最无法啃动的硬骨头，也是人类世界在AI和机器取代面前最后的倔强，然而现在看起来也是可以被技术拆解的。</p><br>
+            </div>
+            <div>
+                <h3>风险</h3><br>
+                <p>AI创作的大火在很长时间以后回头看一定有Stable Diffusion的开源的一席之地，同样这也会带来一些争议和风险。Stability AI的开源是简单粗暴的，他们几乎不对生成内容做任何审核或者过滤，他们只包含了一些关键词过滤，但技术上可以轻松绕过，Reddit上就有教程如何5秒内移除Stable Diffusion的安全过滤。因此用户可以轻松指控Stable Diffusion生成暴力或不良图片，描绘公众人物和名人，也可以高度仿制艺术品或者有版权保护的图像，aka deepfakes。</p><br>
+            </div>
+            <div>
+                <img src="000.png" alt="" width="100%">
+            </div>
+        </div>
+
+        <div id="display">
+            <h2>Display</h2>
+            <div>
+                <img src="002.webp" alt="">
+            </div>
+            <div>
+                <img src="003.webp" alt="">
+            </div>
+            <div>
+                <img src="004.webp" alt="">
+            </div>
+        </div>
+    <div>
+
+    <script src="AI绘画.js"></script>
+</body>
+</html>

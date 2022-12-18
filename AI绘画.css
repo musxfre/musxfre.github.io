@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    border: 0;
+    color: black;
+}
+
+#bg{
+    width: 100%;
+    height: 520vh;
+    background-color: rgb(69, 116, 160);
+    display: flex;
+}
+
+/* 导航栏开始 */
+nav{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 70%;
+             /* 给导航栏一个宽度并使其居中 */
+    border-radius: 50px;
+    background-color: white;
+    height: 60px;
+    text-align: center;
+    box-shadow: 0 25px 20px -22px black;
+}
+
+nav ul li{
+    float: left;
+    width: 170px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 500px;
+    text-align: center;
+}
+nav ul li a{
+    padding: 17px 24px;
+}
+.btli:hover .droplist{
+    display: block;
+}
+.btli:hover .btlia{
+    color: red;
+    cursor: pointer;
+    background-color: pink;
+    transition: 1s;
+}
+.droplist{
+    display: none;
+    width: 75%;
+    margin-left: 20px;
+    border-top: solid 1px grey;
+    background-color: white;
+    border-radius: 13px;
+    box-shadow: 0 25px 20px -22px black;
+    transition: 1s;
+}
+.droplist:hover{
+    background-color: pink;
+}
+.droplist a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* 轮播图片 */
+
+.carousel{
+    z-index: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    overflow: hidden;           /* 隐藏超出的部分 */
+    opacity: 0.3;
+
+}
+#imglist{
+    width: 400%;
+    height: 100vh
+}
+#imglist li{
+    width: 25%;
+    float: left;
+}
+#imglist li img{
+    width: 100%;
+    height: 100vh
+}
+
+/* 标题部分 */
+.tit img{
+    width: 100px;
+    height: 100px;   
+}
+.tit{
+    z-index: 901;
+    position: absolute;
+    left: 2%;
+    top: 13px;
+}
+/* 开始音乐部分 */
+#musicbutton{
+    z-index: 902;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: -20vh;
+    left: 45%;
+    background-color: rgb(166, 119, 54);
+    border-radius: 50%;
+}
+#musicbutton:hover{
+    border-radius: 0;
+    background-color:rgb(54, 33, 63);
+    transition: 2s;
+    cursor: pointer;
+}
+#musicbutton:hover p{
+    font-size: 50px; 
+    color: red;  
+    margin-top: 5px;
+    transition: 2s;
+}
+#word{
+    font-size: 40px;
+    color: pink;
+    text-align: center;
+    margin-top: 17px;
+}
+
+/* 文本部分 */
+h2{
+    margin: 2%;
+}
+h3{
+    margin: 1%;
+    text-align: center;
+}
+
+#history{
+    position: absolute;
+    width: 90%;
+    height: 90vh;
+    left: 5%;
+    top: 100vh;
+    background-color: rgb(215, 238, 249);
+}
+#history div{
+    width: 25%;
+    margin-left: 6%;
+    float: left;
+    border-top: solid 4px rgb(7, 110, 144);
+}
+
+#algorithm{
+    position: absolute;
+    width: 90%;
+    height: 80vh;
+    left: 5%;
+    top: 210vh;
+    background-color: rgb(215, 238, 249);
+}
+#algorithm div{
+    width: 25%;
+    margin-left: 6%;
+    float: left;
+    border-top: solid 4px rgb(7, 110, 144);
+}
+
+#effect{
+    position: absolute;
+    width: 90%;
+    height: 80vh;
+    left: 5%;
+    top: 310vh;
+    background-color: rgb(215, 238, 249);
+}
+#effect div{
+    width: 25%;
+    margin-left: 6%;
+    float: left;
+    border-top: solid 4px rgb(7, 110, 144);
+}
+
+#display{
+    position: absolute;
+    width: 90%;
+    height: 90vh;
+    left: 5%;
+    top: 410vh;
+    background-color: rgb(215, 238, 249);
+}
+#display div{
+    background-color: red;
+    width: 25%;
+    height: 80%;
+    margin-left: 6%;
+    float: left;
+    border-top: solid 4px rgb(7, 110, 144);
+}
+#display div img{
+    width: 100%;
+    height: 100%;
+}
